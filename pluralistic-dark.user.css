@@ -1,0 +1,69 @@
+/* ==UserStyle==
+@name           Pluralistic - Dark
+@namespace      github.com/teohhanhui
+@version        0.1.0
+@description    Dark theme for Pluralistic
+@author         Teoh Han Hui <teohhanhui@gmail.com>
+@license        MIT
+==/UserStyle== */
+@-moz-document domain("pluralistic.net") {
+  body,
+  button,
+  input,
+  select,
+  textarea {
+    color: #e5e5e5;
+  }
+
+  .main-navigation a {
+    color: #e5e5e5;
+  }
+
+  .post-navigation a {
+    color: #e5e5e5;
+  }
+
+  .site {
+    background-color: #000;
+  }
+
+  .site-branding .site-title a {
+    color: #e5e5e5;
+  }
+
+  blockquote,
+  .post-password-form label,
+  a:hover,
+  a:focus,
+  a:active,
+  .post-navigation .meta-nav,
+  .image-navigation,
+  .comment-navigation,
+  .widget_recent_entries .post-date,
+  .widget_rss .rss-date,
+  .widget_rss cite,
+  .site-description,
+  .author-bio,
+  .entry-footer,
+  .entry-footer a,
+  .sticky-post,
+  .taxonomy-description,
+  .entry-caption,
+  .comment-metadata,
+  .pingback .edit-link,
+  .comment-metadata a,
+  .pingback .comment-edit-link,
+  .comment-form label,
+  .comment-notes,
+  .comment-awaiting-moderation,
+  .logged-in-as,
+  .form-allowed-tags,
+  .site-info,
+  .site-info a,
+  .wp-caption .wp-caption-text,
+  .gallery-caption,
+  .widecolumn label,
+  .widecolumn .mu_register label {
+    color: #fff;
+  }
+}
